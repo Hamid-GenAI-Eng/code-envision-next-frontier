@@ -69,7 +69,7 @@ export const ContactSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email Us</h3>
-                      <p className="text-foreground/70">hello@codeenvision.com</p>
+                      <p className="text-foreground/70">info.codeenvision@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -83,7 +83,7 @@ export const ContactSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Call Us</h3>
-                      <p className="text-foreground/70">+1 (555) 123-4567</p>
+                      <p className="text-foreground/70">+92 336 2704833</p>
                     </div>
                   </div>
                 </CardContent>
@@ -97,7 +97,7 @@ export const ContactSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Visit Us</h3>
-                      <p className="text-foreground/70">San Francisco, CA</p>
+                      <p className="text-foreground/70">Pakistan</p>
                     </div>
                   </div>
                 </CardContent>

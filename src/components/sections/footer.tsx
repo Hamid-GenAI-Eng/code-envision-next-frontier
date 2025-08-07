@@ -1,5 +1,6 @@
 import { Code, Github, Linkedin, Twitter, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/code-envision-logo.png";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,11 +32,12 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo & Description */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <Code className="h-8 w-8 text-primary" />
-              <span className="text-2xl font-bold gradient-text">
-                Code Envision
-              </span>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src={logoImage} 
+                alt="Code Envision Logo"
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-foreground/70 mb-6 leading-relaxed max-w-md">
               Pioneering the future of digital innovation with AI-powered solutions, 
